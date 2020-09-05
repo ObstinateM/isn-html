@@ -1,0 +1,98 @@
+.navbar {
+    min-height: 4rem;
+    background-color: #1E1C3B;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+}
+
+nav > div > a, nav > div > div > ul > li > a{
+    color: #fff;
+}
+
+nav > div > div > ul > li > a:hover{
+    color: #7FDEFF;
+}
+
+.navbar-toggle{
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-brand:hover{
+    color: #fff
+}
+
+.img-section{
+    height: 600px;
+    background: url(img/img-section1.png) center;
+    color: black;
+    letter-spacing: 7px;
+}
+
+.img-section > h1{
+    padding-bottom: 1em;
+    font-size: 4em;
+}
+
+.img-section > h2{
+    font-size: 3em;
+    font-weight: 100;
+    padding-top: 3em;
+}
+
+.img-section > a{
+    display: block;
+    background-color: black;
+    color: #fff;
+    margin: 0 auto;
+    width: 13rem;
+    border-color: black;
+}
+
+.img-section > a:hover{
+    background-color: #7FDEFF;
+    border-color: #7FDEFF;
+    color: black;
+}
+
+.why-section{
+    margin-top: 6rem;
+    background-color: #F1F1F1;
+    font-size: 1.2em;
+    padding: 3rem 5rem;
+}
+
+.what-section{
+    margin-top: 6rem;
+}
+
+footer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #2C2A4A;
+    color: #fff;
+    margin-top: 6rem;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+ul > li > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul > li > a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+#pad-footer{
+    margin-bottom: 1rem;
+}

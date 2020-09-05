@@ -1,0 +1,47 @@
+nav{
+    background-color: #313a45;
+    height: 100vh;
+    color: #7FDEFF;
+    padding-top: 2rem;
+    position: fixed;
+}
+
+body{
+    background-color:#f9fafd;
+}
+
+li{
+    margin-left: 2rem;
+}
+
+li:first-of-type{
+    margin-left: 0rem;
+}
+
+.nav-link{
+    padding: 0px 0px 0px 0px;
+}
+
+p{
+    margin: 0;
+    padding-top: 1rem;
+}
+
+h1{
+    padding-bottom: 2rem;
+    color: white;
+}
+
+a{
+    color: white;
+    margin-left: 1rem;
+}
+
+a:hover{
+    color: white;
+}
+
+h1{
+    padding: 0px;
+    margin: 0;
+}

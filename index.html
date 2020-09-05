@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+
+    <title>Flashcard ISN</title>
+  </head>
+  <body>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container" id="nav">
+                <a href="#" class="navbar-brand">Flashcard ISN</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="navbar-toggler-icon">
+                        <svg width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-justify" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" fill="white" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="navbar-item"><a class="nav-link" href="">Accueil</a></li>
+                        <li class="navbar-item"><a class="nav-link" href="">Révision</a></li>
+                        <li class="navbar-item"><a class="nav-link" href="">Journal de bord</a></li>
+                        <li class="navbar-item"><a class="nav-link" href="">Contact</a></li>
+                        <li class="navbar-item"><a class="nav-link" href=""><img src="img/user.png" style="height: 1.5rem"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="img-section">
+            <h2 class="text-center">Révise avec des</h2>
+            <h1 class="text-center">CARTES</h1>
+            <a href="" class="btn btn-primary m-auto">Commencer !</a>
+        </div>
+
+        <div class="why-section container">
+            <h3 class="text-center">Pourquoi ce site ?</h3>
+            <p>
+            Ce site a été créé pour le projet d’ISN de deux élèves de
+            terminale
+
+            Le projet est simple :<br>
+            - Créer un site permettant de réviser avec le système de Flashcard<br>
+            - Avoir un « programme » de révision adapté à vos résultats,
+            tout en s’appuyant sur les recherches de Hermann Ebbinghaus :<br>
+            La courbe de l’oubli.
+            Le tout fonctionne sur le Framework Django<br>
+            </p>
+        </div>
+
+        <div class="what-section container">
+        <div class="row">
+                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                    <img src="img/Courbe-doubli.png" style="width: 100%;">
+                </div>
+                <div class="card col-sm-12 col-md-4 col-lg-4 col-xl-4 mx-auto" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Mais qu'est-ce que la courbe de l'oubli ?</h5>
+                        <p class="card-text">La répétition est l’une des clés de l’apprentissage. Après une révision
+                        on oublie plus de la moitié des informations en seulement 1 jour. Mais
+                        si on rafraîchit ces informations, alors on mettra plusieurs jours avant
+                        de l’oublier a nouveau. C’est sur ce principe que ce repose le programme
+                        de révision du site.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7">
+                            <p>FAIT PAR</p>
+                            <p>Site créé par Mathis Beauville dans le cadre du projet d'ISN</p>
+                        </div>
+
+                        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                            <ul>
+                                <li id="pad-footer">MENU</li>
+                                <li><a href="">Accueil</a></li>
+                                <li><a href="">Révision</a></li>
+                                <li><a href="">Journal de bord</a></li>
+                                <li><a href="">Contact</a></li>
+                                <li><a href="">CGU</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
